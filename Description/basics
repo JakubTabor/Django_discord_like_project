@@ -3,3 +3,4 @@
 * Inside installed_apps i add base.apps.BaseConfig, it will gonna go to base folder, then to apps.py and to BaseConfing class
 
 # Next i gonna create 2 url files using function, one for root url and one for app
+* I create functions with request object, which will be http object
