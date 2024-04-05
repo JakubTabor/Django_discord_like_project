@@ -1,3 +1,5 @@
 # First i gonna create in terminal base application typing python manage.py startapp base and it add the folder inside our directory
 * And now to let know the django about these app, so to connect it i go settings.py
 * Inside installed_apps i add base.apps.BaseConfig, it will gonna go to base folder, then to apps.py and to BaseConfing class
+
+# Next i gonna create 2 url files using function, one for root url and one for app
