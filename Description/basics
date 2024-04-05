@@ -1,1 +1,2 @@
 # First i gonna create in terminal base application typing python manage.py startapp base and it add the folder inside our directory
+* And now to let know the django about these app, so to connect it i go settings.py
