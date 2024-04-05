@@ -4,3 +4,4 @@
 
 # Next i gonna create 2 url files using function, one for root url and one for app
 * I create functions with request object, which will be http object
+* It tell what kind of request method is send, what kind of data is being passed in, what user is sending to backend
