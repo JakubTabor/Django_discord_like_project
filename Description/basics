@@ -7,3 +7,4 @@
 * It tell what kind of request method is send, what kind of data is being passed in, what user is sending to backend
 * From there we are gonna return simple http response, so i import HttpResponse
 * Next i go the the url-s and specify if someone goes into home page, we are gonna send that user to home
+* Home page is empty string, which means that's just query url
