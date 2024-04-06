@@ -16,3 +16,4 @@
 
 # Now we need to configurate our urls to the apps urls files
 * Our first file (urls) were gonna handle all query url
+* I gonna import include and specify if url matches empty string use include and send user to (base.urls)
