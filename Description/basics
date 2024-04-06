@@ -15,3 +15,4 @@
 * And we import views, where we save our functions to urls
 
 # Now we need to configurate our urls to the apps urls files
+* Our first file (urls) were gonna handle all query url
