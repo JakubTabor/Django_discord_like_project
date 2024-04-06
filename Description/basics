@@ -10,3 +10,4 @@
 * Home page is empty string, which means that's just query url
 
 # Then we create another function for one more page, which is room
+* Inside the path we need to set parameters, which are first route path('room/', room), room- the function that we want to call
