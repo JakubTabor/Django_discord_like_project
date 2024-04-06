@@ -12,3 +12,4 @@
 # Then we create another function for one more page, which is room
 * Inside the path we need to set parameters, which are first route path('room/', room), room- the function that we want to call
 * But the way to properly separate our code we create separate url file inside base directory
+* And we import views, where we save our functions to urls
