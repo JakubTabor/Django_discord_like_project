@@ -4,3 +4,4 @@
 * We have couple tables that are ready to be migrated
 * Por example user table, for authentication is build table to store session id
 * These are migrations created by django, which are sql commands ready to be executed
+* They are gonna build out the tables which are inside installed apps
