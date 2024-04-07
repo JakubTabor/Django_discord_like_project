@@ -9,3 +9,5 @@
 
 # We are gonna create tables inside models.py using classes 
 * Every single attribute inside python class will represent a column inside database ex. title, id, description
+
+ So first in models we are gonna create some tables
