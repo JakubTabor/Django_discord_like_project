@@ -3,3 +3,4 @@
 * A lot of apps (different parts of our application) in our project have database section
 * We have couple tables that are ready to be migrated
 * Por example user table, for authentication is build table to store session id
+* These are migrations created by django, which are sql commands ready to be executed
