@@ -1,2 +1,3 @@
 # Now what we want to do is to set up real database in sql database
 * We want to query database and render data from the database
+* A lot of apps (different parts of our application) in our project have database section
