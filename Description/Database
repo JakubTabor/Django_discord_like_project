@@ -6,3 +6,5 @@
 * These are migrations created by django, which are sql commands ready to be executed
 * They are gonna build out the tables which are inside installed apps
 * To run these e need to type (python manage.py migrate)
+
+# We are gonna create tables inside models.py using classes 
