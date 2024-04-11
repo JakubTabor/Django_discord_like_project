@@ -20,3 +20,4 @@
 * Then updated, which is the snapshot of any time these model is updated, the item, or the specific table
 * auto_now=True means, that whenever save method is called, it take a timestamp
 * We also wanna know when it was created, auto_now_add, only take a timestamp when we first save or create the instance
+* It will be helpful, to let us know when room was created and when it was updated and when was the last time it was updated
