@@ -15,3 +15,5 @@
 * There will be also character field and description, which is text field
 * And value null, if it is set to false the database cannot have an instance of the model without these value have something in it
 * Another parameter will be blank set to true and these means that when we run save method it can be also empty
+* It is helpfull when someone create a room and dont add description, it is allowed to add it later
+* Next the participants, wich are all users that are currently active in the room
