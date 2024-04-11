@@ -11,3 +11,4 @@
 * Every single attribute inside python class will represent a column inside database ex. title, id, description
 
  So first in models we are gonna create some tables
+* One is gonna be for our room, its gonna be class Room, inside will be host, so the actual user
