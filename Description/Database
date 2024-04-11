@@ -18,3 +18,4 @@
 * It is helpfull when someone create a room and dont add description, it is allowed to add it later
 * Next the participants, wich are all users that are currently active in the room
 * Then updated, which is the snapshot of any time these model is updated, the item, or the specific table
+* auto_now=True means, that whenever save method is called, it take a timestamp
