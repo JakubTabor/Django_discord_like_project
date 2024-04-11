@@ -13,3 +13,4 @@
 # So first in models we are gonna create some tables
 * One is gonna be for our room, its gonna be class Room, inside will be host, so the actual user
 * There will be also character field and description, which is text field
+* And value null, if it is set to false the database cannot have an instance of the model without these value have something in it
