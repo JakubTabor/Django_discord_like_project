@@ -8,3 +8,5 @@
 * Now rooms appears on the site and we can add room, by its name and description
 * When we got them created we want to render them inside of the list and view the details
 
+# Next i import in views.py from models.py Room, so we import model that we want to query
+
