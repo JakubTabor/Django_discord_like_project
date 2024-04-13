@@ -12,3 +12,4 @@
 * Next we take care of model manager, it is (object) and we specify what we want to get from it
 * I type all() and it will give all rooms in the database
 * Now inside our room function in views.py and assign the specific room
+* Room - model object, models manager (objects) and we do get() to get one single item
