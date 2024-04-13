@@ -9,4 +9,4 @@
 * When we got them created we want to render them inside of the list and view the details
 
 # Next i import in views.py from models.py Room, so we import model that we want to query
-
+* Next we take care of model manager, it is (object) and we specify what we want to get from it
