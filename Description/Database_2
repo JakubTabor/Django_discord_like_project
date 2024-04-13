@@ -1,3 +1,4 @@
 # Next i gonna create string representation of these room
 * When we add a model to the database first thing we need to do is to make migrations
+* It gonna be file with sql commands, we type python manage.py makemigrations
 
