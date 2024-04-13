@@ -6,4 +6,5 @@
 * To do these we go to admin.py and import our model (Room) and register these model with the admin panel
 * We type admin.site.register(Room) - inside model that we want to register
 * Now rooms appears on the site and we can add room, by its name and description
+* When we got them created we want to render them inside of the list and view the details
 
