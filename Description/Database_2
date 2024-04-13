@@ -10,3 +10,4 @@
 
 # Next i import in views.py from models.py Room, so we import model that we want to query
 * Next we take care of model manager, it is (object) and we specify what we want to get from it
+* I type all() and it will give all rooms in the database
