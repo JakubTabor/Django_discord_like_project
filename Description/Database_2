@@ -14,3 +14,5 @@
 * Now inside our room function in views.py and assign the specific room
 * Room - model object, models manager (objects) and we do get() to get one single item
 * We are gonna get it by its uniqe valu, which is id=pk (primary key)
+
+# And each rooms should have some categories
