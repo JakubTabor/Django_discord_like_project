@@ -16,3 +16,4 @@
 * We are gonna get it by its uniqe valu, which is id=pk (primary key)
 
 # And each rooms should have some categories
+* First each room has its own message
