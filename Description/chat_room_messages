@@ -1,1 +1,2 @@
+# Inside views.py in room function we can specify messages, which will be child object of specific room
 
