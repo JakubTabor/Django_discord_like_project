@@ -17,3 +17,4 @@
 
 # And each rooms should have some categories
 * First each room has its own message
+* It will be the user which is sending the message, then room, which is gonna take parent class
