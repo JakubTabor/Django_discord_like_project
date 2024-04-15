@@ -20,3 +20,4 @@
 * It will be the user which is sending the message, then room, which is gonna take parent class
 * And i specify (CASCADE) that when the room will be delited, all (childrens) messages also will be delited
 * In string version i set that there will appear only first 50 characters
+* Next i import user model and pass it into message class
