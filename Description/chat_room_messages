@@ -1,3 +1,4 @@
 # Inside views.py in room function we can specify messages, which will be child object of specific room
 * To get all childrens we specify model name (Messages), it can be in lower case
+* It give us set of messages, that are related to these room
 
