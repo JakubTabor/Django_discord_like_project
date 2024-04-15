@@ -22,3 +22,4 @@
 * In string version i set that there will appear only first 50 characters
 * Next i import user model and pass it into message class
 * I also create class for topic, it will be character field with 200 max character
+* I specify that if someone want to delete topic, the room will be not deleted (SET_NULL)
