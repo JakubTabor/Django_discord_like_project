@@ -21,3 +21,4 @@
 * And i specify (CASCADE) that when the room will be delited, all (childrens) messages also will be delited
 * In string version i set that there will appear only first 50 characters
 * Next i import user model and pass it into message class
+* I also create class for topic, it will be character field with 200 max character
