@@ -2,3 +2,5 @@
 * To get all childrens we specify model name (Messages), it can be in lower case
 * It give us set of messages, that are related to these room
 
+# Then i create html for that page, the delete functionality and participants
+
