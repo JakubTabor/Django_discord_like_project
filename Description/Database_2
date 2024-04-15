@@ -24,3 +24,4 @@
 * I also create class for topic, it will be character field with 200 max character
 * I specify that if someone want to delete topic, the room will be not deleted (SET_NULL)
 * But in database we need to allow it to be true (null=True)
+* And now we can make migrations and register these models with admin panel
