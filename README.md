@@ -15,3 +15,5 @@
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/command_to_create_user.png)
 
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/migration_command.png)
+
+![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/room_migrations.png)
