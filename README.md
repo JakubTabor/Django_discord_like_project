@@ -1,3 +1,4 @@
+
 # Command which hoose the place to create our project
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/command_desktop.png)
 
@@ -15,10 +16,13 @@
 
 # Command to create super user, admin
 * We pass all informations, such as email and password
+
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/command_to_create_user.png)
 
-![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/migration_command.png)
-
+# Command to make migrations
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/room_migrations.png)
+
+# And migrate to our database
+![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/migration_command.png)
 
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/responce_to_the%20_backend.png)
