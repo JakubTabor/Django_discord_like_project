@@ -30,3 +30,5 @@
 
 # Json format response
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/JSON_response.png)
+
+![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/django_framework_response.png)
