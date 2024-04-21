@@ -4,7 +4,7 @@
 # Installation of virtual environment
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/instalation_of_virtualenv.png)
 
-# 
+# Command to run virtual environment and install django on it
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/installation_of_django_env.png)
 
 # Command to start virtual environment and run server
