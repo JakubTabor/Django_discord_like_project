@@ -13,6 +13,8 @@
 # Command to deactivate virtual environment
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/deactivation.png)
 
+# Command to create super user, admin
+* We pass all informations, such as email and password
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/command_to_create_user.png)
 
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/migration_command.png)
