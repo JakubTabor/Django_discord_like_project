@@ -1,6 +1,7 @@
 # Command which hoose the place to create our project
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/command_desktop.png)
 
+# Installation of virtual environment
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/instalation_of_virtualenv.png)
 
 # 
