@@ -25,4 +25,5 @@
 # And migrate to our database
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/migration_command.png)
 
+# Response to backend
 ![](https://github.com/JakubTabor/Django_discord_like_project/blob/discord_like_website/Images/responce_to_the%20_backend.png)
