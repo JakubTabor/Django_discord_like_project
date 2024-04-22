@@ -1,3 +1,4 @@
 # CRUD stands for (create, read, update, delete)
 * First we are gonna create form for a room in templates
+* Next i specify form for a method of sending data (POST method)
 
