@@ -3,11 +3,9 @@ from django.http import HttpResponse
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
-from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.forms import UserCreationForm
-from .models import Room, Topic, Message
-from .forms import RoomForm, UserForm
+from .models import Room, Topic, Message, User
+from .forms import RoomForm, UserForm, MyUserCreationForm
 
 
 def loginPage(request):
@@ -17,21 +15,22 @@ def loginPage(request):
         return redirect('home')
     
     if request.method == 'POST':
-        username = request.POST.get('username').lower()
-        password = request.POST.get('password')
-        
-        try:
-            user = User.objects.get(username=username)
-        except:
-            messages.error(request, 'User does not exist' )
-            
-        user = authenticate(request, username=username, password=password)
-        
-        if user is not None:
-            login(request, user)
-            return redirect('home')
-        else:
-            messages.error(request, 'Username Or password does not exist')
+         if request.method == 'POST':
+            email = request.POST.get('email')
+            password = request.POST.get('password')
+
+            try:
+                user = User.objects.get(email=email)
+            except:
+                messages.error(request, 'User does not exist')
+
+                user = authenticate(request, email=email, password=password)
+                
+            if user is not None:
+                login(request, user)
+                return redirect('home')
+            else:
+                messages.error(request, 'Username Or password does not exist')
             
     context = {'page': page}
     
@@ -45,10 +44,10 @@ def logoutUser(request):
 
 
 def registerPage(request):
-    form = UserCreationForm()
+    form = MyUserCreationForm()
     
     if request.method == 'POST':
-        form = UserCreationForm(request.POST)
+        form = MyUserCreationForm(request.POST)
         if  form.is_valid():
             user = form.save(commit=False)
             user.username = user.username.lower()
@@ -70,7 +69,7 @@ def home(request):
         Q(description__icontains=q)
         )
     
-    topics = Topic.objects.all()
+    topics = Topic.objects.all()[0:5]
     room_count = rooms.count()
     room_messages = Message.objects.filter(Q(room__topic__name__icontains=q))
     
@@ -161,7 +160,7 @@ def deleteRoom(request, pk):
         room.delete()
         return redirect('home') 
     
-    return render(request, 'base/delete.html', {'obj':room})
+    return render(request, 'base/delete.html', {"obj":room})
 
 @login_required(login_url='login')
 def deleteMessage(request, pk):
@@ -182,9 +181,20 @@ def updateUser(request):
     form = UserForm(instance=user)
     
     if request.method == 'POST':
-        form = UserForm(request.POST, instance=user)
+        form = UserForm(request.POST, request.FILES, instance=user)
         if form.is_valid():
             form.save()
             return redirect('user-profile', pk=user.id)
         
     return render(request, 'base/update-user.html', {'form': form})
+
+
+def topicsPage(request):
+    q = request.GET.get('q') if request.GET.get('q') != None else ''
+    topics = Topic.objects.filter(name__icontains=q)
+    return render(request, 'base/topics.html', {'topics': topics})
+
+
+def activityPage(request):
+    room_messages = Message.objects.all()
+    return render(request, 'base/activity.html', {'room_messages': room_messages})
