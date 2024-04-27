@@ -3,4 +3,5 @@
 * Inside views.py i import JsonResponse, because i want to response with json data when someone goes to the url
 * Then i create view which shows us all routs in our api
 * api/rooms will give us Json array of objects of all the rooms in our database
+* And api/rooms/:id will give us single object and information about that rooms
 
