@@ -5,3 +5,4 @@
 * api/rooms will give us Json array of objects of all the rooms in our database
 * And api/rooms/:id will give us single object and information about that rooms
 
+# Then we take this python list of strings and put inside JsonResponse
