@@ -1,3 +1,4 @@
 # We are gonna use django rest framework
 * First i create api folder and inside __init__.py, urls.py and views.py
+* Inside views.py i import JsonResponse, because i want to response with json data when someone goes to the url
 
