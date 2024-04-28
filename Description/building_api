@@ -14,3 +14,4 @@
 * Then i import django framework and add it to settings.py in installed apps
 
 # Now i gonna build urls based on django rest framework
+* So first i change Json to django response that i import and delite safe
