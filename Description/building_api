@@ -7,3 +7,4 @@
 
 # Then we take this python list of strings and put inside JsonResponse
 * Parameter safe=False means that we can use more that just python dictionary inside of these Json response
+* So it allow the list to turned into a Json list 
