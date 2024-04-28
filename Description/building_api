@@ -15,3 +15,4 @@
 
 # Now i gonna build urls based on django rest framework
 * So first i change Json to django response that i import and delite safe
+* I import api_view and restrict that getRouter view can get only Get request
