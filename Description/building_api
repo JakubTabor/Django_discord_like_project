@@ -11,5 +11,6 @@
 
 # Next inside studybud urls.py in let know that every url that start with api send to our api file
 * And our urls.py in api folder will handle that  
-
 * Then i import django framework and add it to settings.py in installed apps
+
+# Now i gonna build urls based on django rest framework
