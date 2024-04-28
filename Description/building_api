@@ -6,3 +6,4 @@
 * And api/rooms/:id will give us single object and information about that rooms
 
 # Then we take this python list of strings and put inside JsonResponse
+* Parameter safe=False means that we can use more that just python dictionary inside of these Json response
