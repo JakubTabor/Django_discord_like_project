@@ -4,3 +4,4 @@
 
 # I import ModelSerializer and put it inside the class Roomserializer
 * It will take all fields from Room model and convert that into  Json object
+* And inside views.py i pass to getRooms the RoomSerializer and put inside object that we want to serialize 
