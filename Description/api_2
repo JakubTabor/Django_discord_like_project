@@ -6,3 +6,4 @@
 * It will take all fields from Room model and convert that into  Json object
 * And inside views.py i pass to getRooms the RoomSerializer and put inside object that we want to serialize 
 * And parameter many, that stands if that are multiply object that we want to serialize
+* Then we want to return data attribute of serializer object
