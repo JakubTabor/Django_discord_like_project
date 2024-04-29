@@ -1,2 +1,3 @@
 # Next i create view for rooms, but Room object is python list of objects
 * Because objects cannot be converted automatically
+* So i make serializers, which will be classes that take model that we want to serialize and turn it into Json data
