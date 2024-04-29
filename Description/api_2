@@ -1,1 +1,2 @@
 # Next i create view for rooms, but Room object is python list of objects
+* Because objects cannot be converted automatically
