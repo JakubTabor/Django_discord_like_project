@@ -16,3 +16,4 @@
 * So we create api and other side can make api call to access it
 
 # We can now modify the api in JavaScript
+* First by looping through all rooms and displaying them on website in rows
