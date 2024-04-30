@@ -13,3 +13,4 @@
 * I gonna set it in setting.py to allow all origins
 
 # This is how we can use api call to share informations  
+* So we create api and other side can make api call to access it
