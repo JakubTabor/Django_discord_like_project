@@ -10,3 +10,4 @@
 
 # Next i gonna install django-cors-headers and add to installed apps and also to middleware
 * And now using these we can specify which urls is allowed
+* I gonna set it in setting.py to allow all origins
