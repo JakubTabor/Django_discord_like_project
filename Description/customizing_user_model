@@ -1,1 +1,2 @@
 # I start from creating directory in prompt using command django-admin startproject customusermodel
+* And add to installed apps in setting.py base directory 
