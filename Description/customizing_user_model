@@ -1,2 +1,3 @@
 # I start from creating directory in prompt using command django-admin startproject customusermodel
 * And add to installed apps in setting.py base directory 
+* Now in base models.py i import AbstractUser and pass it to User class
