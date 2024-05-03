@@ -3,3 +3,5 @@
 * Now in base models.py i import AbstractUser and pass it to User class
 * To let know django, that i gonna use AbstractUser model i set in setting.py variable AUTH_USER_MODEL
 * And point it to base directory and User class model
+* Then i make migrations and add all default tables that migrated are added to sqlite database
+
