@@ -5,3 +5,5 @@
 * And point it to base directory and User class model
 * Then i make migrations and add all default tables that migrated are added to sqlite database
 
+# To make user uploaded content work out we go to setting.py 
+
