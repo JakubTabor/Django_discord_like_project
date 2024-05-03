@@ -7,5 +7,6 @@
 
 # To make user uploaded content work out we go to setting.py 
 * And make MEDIA_ROOT, it tell django where to upload these user profile pictures
+* It gonna tell django where the pictures gonna go, so i set media root to  base directory
 
 
