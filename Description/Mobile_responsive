@@ -1,2 +1,3 @@
 # To fix our search bar i pass into mobile-menu container
+* First to input placeholder i pass q name, that will add GET parameter and send home page
 
