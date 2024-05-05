@@ -16,3 +16,5 @@
 * So i will get file from MEDIA_ROOT, which is	static/images in base directory
 * And we connect MEDIA_ROOT to MEDIA_URL
 
+# And now when we go to admin panel we can see that default avatar.svg was added
+
