@@ -2,3 +2,4 @@
 * First to input placeholder i pass q name, that will add GET parameter and send home page
 
 # To update topics page first i need to add new view.py for this and url.py
+* I define q method in view for topicsPage and if user searches that q method will be send to topicsPage
