@@ -12,4 +12,5 @@
 
 # And i also specify media url and point to images
 * Now i need to configure the root directory, so i go to urls.py in studybud and add filepath to this urls
+* And also i gonna append url in the urlpatterns and set filepath to MEDIA_URL, which is /images/
 
