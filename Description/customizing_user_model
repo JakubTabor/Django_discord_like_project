@@ -17,4 +17,4 @@
 * And we connect MEDIA_ROOT to MEDIA_URL
 
 # And now when we go to admin panel we can see that default avatar.svg was added
-
+* Next we go to feed_component and change random user picture and point to host avatar
