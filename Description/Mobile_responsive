@@ -1,3 +1,4 @@
 # To fix our search bar i pass into mobile-menu container
 * First to input placeholder i pass q name, that will add GET parameter and send home page
 
+# To update topics page first i need to add new view.py for this and url.py
