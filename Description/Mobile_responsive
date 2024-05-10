@@ -3,3 +3,4 @@
 
 # To update topics page first i need to add new view.py for this and url.py
 * I define q method in view for topicsPage and if user searches that q method will be send to topicsPage
+* And in the home function inside views.py i specify that only 5 first topics are visible 
