@@ -1,3 +1,3 @@
 # In this section i gonna download and edit the styling for the page
 * Inside the home page i gonna include feed_component, topics_component and activity_component 
-
+* I also extend main.html and change all default values to flexible format
