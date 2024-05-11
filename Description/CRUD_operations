@@ -3,3 +3,4 @@
 * Next i specify form for a method of sending data (POST method)
 * If i don't specify the action it's gonna send to current url (action="")
 * And i specify csrf_token, these token will be send on every form submit
+* Because when we send post request in django we need to pass in these token
