@@ -7,3 +7,5 @@
 # In views.py i create object for topics
 * Method Topic.objects.get_or_create, it will return either an object or return object and create it
 * If it cant find the object it will create it
+
+# So in createRoom i rewrite the create function, including the topic
