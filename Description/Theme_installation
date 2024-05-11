@@ -5,3 +5,4 @@
 * I also change count for users and their usernames
 
 # In views.py i create object for topics
+* Method Topic.objects.get_or_create, it will return either an object or return object and create it
