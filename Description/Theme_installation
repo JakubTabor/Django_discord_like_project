@@ -9,3 +9,5 @@
 * If it cant find the object it will create it
 
 # So in createRoom i rewrite the create function, including the topic
+* We can also update updateRoom function using get_or_create method for name, topic and description
+
