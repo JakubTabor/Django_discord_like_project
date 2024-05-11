@@ -2,3 +2,4 @@
 * Inside the home page i gonna include feed_component, topics_component and activity_component 
 * I also extend main.html and change all default values to flexible format
 * Por example {{message.create|timesince}} ago instead of hardcode 5 days ago
+* I also change count for users and their usernames
