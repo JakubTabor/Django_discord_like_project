@@ -16,3 +16,4 @@
 * Model form is like class based representation of a form
 * First i gonna create new file in base.app and import model form and our Room
 * Now to create model form we create class for it
+* We set metadata, inside i specify model that i want to create form for (Room model) and field (all fields)
