@@ -9,3 +9,4 @@
 
 # Now in the view i create function for it, where it render out the template
 * In urls.py we creat url for it, i create new route
+* To link it up the template and url in home.html, where we add a link
