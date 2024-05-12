@@ -6,3 +6,5 @@
 * Because when we send post request in django we need to pass in these token
 * It make sure that there is no malicious attempts
 * Then i add also submit button, text will be uppercase and type lowercase
+
+# Now in the view i create function for it, where it render out the template
