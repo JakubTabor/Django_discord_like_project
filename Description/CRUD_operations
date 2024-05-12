@@ -14,3 +14,4 @@
 
 # For now we are gonna use function based use, using model form
 * Model form is like class based representation of a form
+* First i gonna create new file in base.app and import model form and our Room
