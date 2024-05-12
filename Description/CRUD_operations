@@ -5,3 +5,4 @@
 * And i specify csrf_token, these token will be send on every form submit
 * Because when we send post request in django we need to pass in these token
 * It make sure that there is no malicious attempts
+* Then i add also submit button, text will be uppercase and type lowercase
