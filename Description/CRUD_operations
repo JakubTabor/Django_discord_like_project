@@ -8,3 +8,4 @@
 * Then i add also submit button, text will be uppercase and type lowercase
 
 # Now in the view i create function for it, where it render out the template
+* In urls.py we creat url for it, i create new route
