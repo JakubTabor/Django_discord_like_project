@@ -13,3 +13,4 @@
 * The value will go to that url, we took name from urls.py
 
 # For now we are gonna use function based use, using model form
+* Model form is like class based representation of a form
