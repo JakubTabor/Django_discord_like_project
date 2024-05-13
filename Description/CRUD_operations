@@ -21,3 +21,4 @@
 
 # Next i gonna import that form to views.py and set form in createRoom
 * And i render these out in the template (context)
+* Next we can pass that into room_form.html
