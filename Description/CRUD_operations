@@ -18,3 +18,5 @@
 * Now to create model form we create class for it
 * We set metadata, inside i specify model that i want to create form for (Room model) and field (all fields)
 * ('__all__'), will create form based on metadata of class Room in models.py, drop down list, topic value itd.
+
+# Next i gonna import that form to views.py and set form in createRoom
