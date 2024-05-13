@@ -1,0 +1,23 @@
+# Now what we want to do is to set up real database in sql database
+* We want to query database and render data from the database
+* A lot of apps (different parts of our application) in our project have database section
+* We have couple tables that are ready to be migrated
+* Por example user table, for authentication is build table to store session id
+* These are migrations created by django, which are sql commands ready to be executed
+* They are gonna build out the tables which are inside installed apps
+* To run these e need to type (python manage.py migrate)
+
+# We are gonna create tables inside models.py using classes 
+* Every single attribute inside python class will represent a column inside database ex. title, id, description
+
+# So first in models we are gonna create some tables
+* One is gonna be for our room, its gonna be class Room, inside will be host, so the actual user
+* There will be also character field and description, which is text field
+* And value null, if it is set to false the database cannot have an instance of the model without these value have something in it
+* Another parameter will be blank set to true and these means that when we run save method it can be also empty
+* It is helpful when someone create a room and dont add description, it is allowed to add it later
+* Next the participants, wich are all users that are currently active in the room
+* Then updated, which is the snapshot of any time these model is updated, the item, or the specific table
+* auto_now=True means, that whenever save method is called, it take a timestamp
+* We also wanna know when it was created, auto_now_add, only take a timestamp when we first save or create the instance
+* It will be helpful, to let us know when room was created and when it was updated and when was the last time it was updated
