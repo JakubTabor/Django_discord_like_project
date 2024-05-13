@@ -20,3 +20,4 @@
 * ('__all__'), will create form based on metadata of class Room in models.py, drop down list, topic value itd.
 
 # Next i gonna import that form to views.py and set form in createRoom
+* And i render these out in the template (context)
