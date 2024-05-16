@@ -1,2 +1,3 @@
 # Next i gonna create authentication, user login, logout form, user registration
 * First session will be created in the database and store in browser
+* On each request it will be send to backend and check is these user allow to be here and what permissions do they have
