@@ -14,3 +14,6 @@
 * I bring it to main template
 
 # Now i continue, so if user exist we use authenticate method, which we import first and also login, logout
+* We also write the condition in navbar.html if user is authenticated
+
+# I also create logout view
