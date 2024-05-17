@@ -5,3 +5,5 @@
 * I create template registration and pass login form with 2 fields, username and password
 * And then in views.py i create views for the login page
 * Next in urls.py i create url for these and we render the ling inside navigation bar
+
+# Now when we send this information we need to extract this values
