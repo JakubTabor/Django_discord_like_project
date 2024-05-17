@@ -7,3 +7,4 @@
 * Next in urls.py i create url for these and we render the ling inside navigation bar
 
 # Now when we send this information we need to extract this values
+* In views.py LoginPage i specify that when user enter his informations we are gonna get username and password
