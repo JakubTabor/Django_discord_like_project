@@ -3,3 +3,4 @@
 * On each request it will be send to backend and check is these user allow to be here and what permissions do they have
 * Session id is stored inside cookies in browser, we are gonna build these by ourselfs
 * I create template registration and pass login form with 2 fields, username and password
+* And then in views.py i create views for the login page
