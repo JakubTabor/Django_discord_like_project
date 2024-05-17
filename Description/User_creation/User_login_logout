@@ -9,3 +9,4 @@
 # Now when we send this information we need to extract this values
 * In views.py LoginPage i specify that when user enter his informations we are gonna get username and password
 * These will be send from frontend, once we get these values we make sure that these user exist using (try, except)
+* In exception (user doesnt exist) we want to throw error message, for this i import messages
