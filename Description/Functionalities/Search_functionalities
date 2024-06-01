@@ -2,4 +2,5 @@
 * I start from make a styling to our website
 
 # I start from creating topic object and render that in home page
+* I loop through all the topics, in each iteration creating whrapper
 
