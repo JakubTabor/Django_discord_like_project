@@ -7,4 +7,4 @@
 * I also specify all, which is gonna send user to the home page
 * In views.py home function, i specify q as get method, q will be whatever we pass into the url
 * Next in the rooms i gonna get topic, with query upword to the parent (__name=q)
-
+* To work properly we need to create the condition, for now we dont have any parameters
