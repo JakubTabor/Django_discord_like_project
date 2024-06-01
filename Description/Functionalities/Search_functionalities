@@ -5,4 +5,5 @@
 * I loop through all the topics, in each iteration creating whrapper
 * And add link by topic name, its gonna be the filter
 * I also specify all, which is gonna send user to the home page
+* In views.py home function, i specify q as get method, q will be whatever we pass into the url
 
