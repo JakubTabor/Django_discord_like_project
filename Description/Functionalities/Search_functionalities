@@ -1,3 +1,5 @@
 # First thing that we are gonna build will be sidebar, which are gonna cointain all topict, Next i gonna build search bar
 * I start from make a styling to our website
 
+# I start from creating topic object and render that in home page
+
