@@ -1,0 +1,12 @@
+# To fix our search bar i pass into mobile-menu container
+* First to input placeholder i pass q name, that will add GET parameter and send home page
+
+# To update topics page first i need to add new view.py for this and url.py
+* I define q method in view for topicsPage and if user searches that q method will be send to topicsPage
+* And in the home function inside views.py i specify that only 5 first topics are visible 
+
+# Then i make More button actually a link, which will be browse topics bar
+
+# Next i make recent activities
+* First i create view and url for the recent activities
+* And next i add link button for recent activities in home page 
