@@ -15,3 +15,4 @@
 
 # Now to create search bar we go to navbar.html and text will be the input field
 * To make dynamic searches, by now we are searching by the topic names, we want to search also by the name of user and so on
+* We can chain the filters in our rooms filter, but better method is (q lookup method) provided by django, thats (and, or) statement
