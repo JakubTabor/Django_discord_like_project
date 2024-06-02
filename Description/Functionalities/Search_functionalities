@@ -9,3 +9,4 @@
 * Next in the rooms i gonna get topic, with query upword to the parent (__name=q)
 * To work properly we need to create the condition, for now we dont have any parameters
 * We are gonna check if the request method has something 
+* And (icontains) make sure that whatever va;ue we had in the topic__name at least contain whats in here
