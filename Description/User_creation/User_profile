@@ -1,3 +1,5 @@
 # Inside profile.html i create 3 different columns 
 * One for activity, next for feed and for activity
 
+# If we want to let know django about static files we go to settings.py
+
