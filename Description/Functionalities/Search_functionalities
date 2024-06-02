@@ -14,3 +14,4 @@
 * And it will run the filter from the rooms parameter and return positive match
 
 # Now to create search bar we go to navbar.html and text will be the input field
+* To make dynamic searches, by now we are searching by the topic names, we want to search also by the name of user and so on
