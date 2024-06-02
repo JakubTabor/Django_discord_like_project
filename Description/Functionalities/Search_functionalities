@@ -12,3 +12,5 @@
 * And (icontains) make sure that whatever va;ue we had in the topic__name at least contain whats in here
 * So if we type just (Py instead of Python), it will see that is contain at least these 2 letters
 * And it will run the filter from the rooms parameter and return positive match
+
+# Now to create search bar we go to navbar.html and text will be the input field
