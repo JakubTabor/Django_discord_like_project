@@ -2,4 +2,5 @@
 * One for activity, next for feed and for activity
 
 # If we want to let know django about static files we go to settings.py
+* We create variable for static filer directory and then bring it into main.html in templates
 
